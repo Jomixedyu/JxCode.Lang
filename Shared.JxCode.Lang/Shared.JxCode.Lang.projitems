@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>0d80ab74-0969-4444-a622-33c4e6bf62b6</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>JxCode.Lang</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\ByteCode\ByteCodeInterpreter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\ByteCode\ByteCodeType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\ByteCode\Method.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\ByteCode\OperateCode.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\Interpreter.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\Lib\logic.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\Lib\math.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\Module.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\VarType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lexer\CLexer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lexer\Core\LexerBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lexer\Core\LexerTokenType.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lexer\NepLexer.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lexer\Core\LexerException.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lexer\Core\Token.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Lexer\LuaLexer.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Lexer\Core\" />
+  </ItemGroup>
+</Project>
