@@ -9,10 +9,6 @@
     <Import_RootNamespace>JxCode.Lang</Import_RootNamespace>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\ByteCode\ByteCodeInterpreter.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\ByteCode\ByteCodeType.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\ByteCode\Method.cs" />
-    <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\ByteCode\OperateCode.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\Interpreter.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\Lib\logic.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)NepInterpreter\Lib\math.cs" />
